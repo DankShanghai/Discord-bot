@@ -40,7 +40,7 @@ client.on("message", function(message){
 //Custom messages
 client.on('message', message => {
 	if (message.content === 'test'.toLowerCase()) {
-		message.channel.send('wiara se testuje');
+		message.channel.send('Jaki test? Przeciez dzialam!');
 	}
 	if (message.content === '!ping'.toLowerCase()) {
 		message.channel.send('Pong');
