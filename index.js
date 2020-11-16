@@ -64,7 +64,7 @@ client.on("message", function(message){
 	{
 	if(message.author.id === '264357251773497356') //Robert
 	{
-		message.channel.send('I like you, Robert.')
+		message.channel.send('I like you!')
 	} else {
 		message.channel.send('Definitely not you!');
 	}
@@ -94,7 +94,7 @@ client.on("message", function(message){
 	{
 		message.channel.send('Taki duży chłop a gra w głupie gry... weź się do roboty.')
 	} else {
-		message.channel.send('Pewnie, graj ile chcesz. Nikt nie powinna Ci mówić co wolno, a co nie.');
+		message.channel.send('Pewnie, graj ile chcesz!');
 	}
 	}
 	});
